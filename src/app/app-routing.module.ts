@@ -9,14 +9,14 @@ import { MyTabMainComponent } from './my-tab-main/my-tab-main.component';
 import { SiteElementsComponent } from './site-elements/site-elements.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
-  { path: 'faq', component: FaqComponent },
+  { path: '',   redirectTo: 'dialog', pathMatch: 'full' },
+  // { path: 'home', component: HomeComponent },
+  // { path: 'faq', component: FaqComponent },
   { path: 'dialog', component: DialogComponent },
-  { path: 'bottom-sheet', component: MyBsMainComponent },
-  { path: 'tab', component: MyTabMainComponent },
-  { path: 'elements', component: ElementsComponent },
-  { path: 'site-elements', component: SiteElementsComponent },
+  // { path: 'bottom-sheet', component: MyBsMainComponent },
+  // { path: 'tab', component: MyTabMainComponent },
+  // { path: 'elements', component: ElementsComponent },
+  // { path: 'site-elements', component: SiteElementsComponent },
 ];
 
 @NgModule({
