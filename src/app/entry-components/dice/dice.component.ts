@@ -26,8 +26,8 @@ export class DiceComponent implements OnInit {
     public dialogRef: MatDialogRef<DiceComponent>,
     @Inject(MAT_DIALOG_DATA) public data: [DialogData,DialogData],
   ) {
-    data[0].img_path = "../../assets/images/" + data[0].img_path;
-    data[1].img_path = "../../assets/images/" + data[1].img_path;
+    data[0].img_path = "assets/images/" + data[0].img_path;
+    data[1].img_path = "assets/images/" + data[1].img_path;
    }
 
    onNoClick(): void{
