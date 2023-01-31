@@ -1,4 +1,5 @@
 # FirstApp
+ng deploy --base-href=https://farasatn.github.io/dice-game/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
